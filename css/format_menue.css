@@ -1,0 +1,128 @@
+﻿/* Allgemeine CSS-Formate für die Seite */
+
+*					{
+					margin:0px;
+            		padding:0px;
+            		}
+
+body				{
+					background-color:#DFDFDF;
+            		font-family:arial;
+            		color:#004499;
+         			}
+
+h1					{
+                    text-align:center;
+                    }
+
+h4					{
+					font-size:12px;
+					padding-top:2px;
+					padding-left:5px;
+					}
+
+/* Layout (Größe und Aussehen der DIV-Container) */
+
+#rahmen				{		
+					width:800px;
+            		height:541px;
+            		margin:40px auto;
+            		}
+
+#logo				{
+					float:left;
+					background-image:url(../bilder/logo.jpg);
+            		width:200px;
+            		height:100px;
+                 	}
+
+#banner				{
+					float:left;
+					background-image:url(../bilder/banner.jpg);
+            		width:600px;
+            		height:100px;
+            		}
+
+#topnavi			{
+					clear:both;
+            		width:780px;
+            		height:29px;
+            		background-color:#6B9EFE;
+            		padding-left:20px;
+            		padding-top:6px;
+            		}
+
+#links			{
+					float:left;
+            		width:85px;
+            		height:385px;
+            		background-color:#D50000;
+            		}
+
+#content			{
+					float:left;
+            		width:465px;
+            		height:365px;
+            		background-color:#FFFFFF;
+            		padding:10px;
+            		overflow:auto;
+            		}
+
+#sidenavi				{
+					float:left;
+          		 	width:230px;
+           		 	height:365px;
+          		 	background-color:#D50000;
+          		 	padding-top:20px;
+           		 	}
+
+#footer				{
+					clear:both;
+            		width:794px;
+            		height:15px;
+					color:#FFFFFF;
+            		background-color:#004499;
+            		font-size:12px;
+            		padding:3px;
+            		}
+            		
+/* CSS-Formate zur Gestaltung des Navigationsmenüs im Container #topnavi */
+
+#topnavi a#aktuelle_seite {
+
+
+
+			}
+
+#topnavi a:link, #topnavi a:visited {
+
+
+
+			}
+ 
+#topnavi a:hover	{
+
+
+
+			}
+
+/* CSS-Formate zur Gestaltung des Navigationsmenüs im Container #sidenavi */
+
+#sidenavi a#aktuelle_seite {
+
+
+
+			}
+
+#sidenavi a:link, #sidenavi a:visited {
+
+
+
+			}
+ 
+#sidenavi a:hover	{
+
+
+
+			}
+
