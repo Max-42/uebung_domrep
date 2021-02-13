@@ -89,21 +89,28 @@ h4					{
 /* CSS-Formate zur Gestaltung des Navigationsmenüs im Container #topnavi */
 
 #topnavi a#aktuelle_seite {
-
-
-
+	background-color: #004499;
+	color: #FFFFFF;
 			}
 
 #topnavi a:link, #topnavi a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:  12px;
+	color: #004499;
 
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
 
-
+	margin: 10px;
+	width: 128px;
+	border: 1px outset #D50000;
 			}
  
 #topnavi a:hover	{
-
-
-
+	background-color: #004499;
+	color: #FFFFFF;
 			}
 
 /* CSS-Formate zur Gestaltung des Navigationsmenüs im Container #sidenavi */
