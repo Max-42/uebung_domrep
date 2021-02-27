@@ -116,20 +116,59 @@ h4					{
 /* CSS-Formate zur Gestaltung des Navigationsmenüs im Container #sidenavi */
 
 #sidenavi a#aktuelle_seite {
+	font-family: Arial, Helvetica, sans-serif;
+	display:block;
+ 	color:#004499;
+
+	background-repeat:repeat-x;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+
+	background-image:url('../bilder/verlauf_blau.gif');
+ 	width:130px;
+ 	height:18px;
+
+ 	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+ 	border-radius:10px;
+
+	padding:12px 3px 10px 3px;
+	margin:10px 0px 20px 64px;
 
 
 
 			}
 
 #sidenavi a:link, #sidenavi a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	display:block;
+	color:#004499;
+
+	font-size:12px;
+	font-weight:bold;
+
+	background-image:url('../bilder/verlauf_rot.gif');
+	background-repeat:repeat-x;
+ 	
+ 	text-decoration:none;
+	
+	
+ 	text-align:center;
+ 	width:130px;
+ 	height:18px;
+ 	padding:12px 3px 10px 3px;
+ 	margin:10px 0px 20px 64px;
+ 	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+ 	border-radius: 10px;
 
 
 
 			}
  
 #sidenavi a:hover	{
-
-
-
-			}
+	color:#004499;
+	font-weight:bold;
+	background-image:url('../bilder/verlauf_blau.gif');
+	background-repeat: repeat-x;
+	}
 
